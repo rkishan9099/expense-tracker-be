@@ -27,6 +27,9 @@ app.use(express.urlencoded({ limit: "50mb", extended: true }))
 
 // Middleware to parse JSON request bodies
 app.use(express.json())
+app.get("/", (req: Request, res: Response) => {
+  res.send("Welcome to the Expense Tracker API")
+})
 
 // Mount  routes
 app.use("/api/user",userRoutes)

@@ -3,7 +3,7 @@
     "target": "es2016",
     "module": "CommonJS",
     "typeRoots": ["./app/@types", "./node_modules/@types"],
-    "outDir": "build",
+    "outDir": "dist",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
